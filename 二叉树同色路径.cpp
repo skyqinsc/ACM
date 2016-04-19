@@ -1,4 +1,4 @@
-ass LongestPath {
+class LongestPath {
 public:
     LongestPath(){memset(dp,0,sizeof dp);ans=0;}
     int findPath(TreeNode* root){
